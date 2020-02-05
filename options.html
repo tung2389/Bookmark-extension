@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      button {
+        height: 30px;
+        outline: none;
+        margin: 10px;
+      }
+      .collapsible {
+        position: relative;
+        left: 4px;
+        background-color: #777;
+        color: white;
+        cursor: pointer;
+        padding: 18px;
+        width: 100%;
+        border: none;
+        text-align: left;
+        outline: none;
+        font-size: 15px;
+      }
+      .topFolder{
+        /* background-color: #777; */
+        cursor: pointer;
+        display: block;
+        font-size:20px;
+      }
+      .folder{
+        position: relative;
+        left: 40px;
+        /* background-color: #777; */
+        font-size:15px;
+        cursor: pointer;
+        display: none;
+      }
+      .chosen{
+        color: red
+      }
+    </style>
+  </head>
+  <body>
+    <button id = "json" class="json">Export to JSON file</button>
+    <button id = "html" class="html">Export to HTML file</button>
+    <div id="control">
+
+    </div>
+
+    <div id = "buttonHolder">
+
+    </div>
+  </body>
+  <script src="/Options/buildTree.js"></script>
+  <script src="/Options/controller.js"></script>
+</html>

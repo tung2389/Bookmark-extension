@@ -1,0 +1,23 @@
+{
+    "name": "Bookmarks exporter",
+    "version": "1.0",
+    "description": "An extension help you to export specific folder of bookmarks",
+    "permissions": [
+        "activeTab", 
+        "declarativeContent", 
+        "storage",
+        "bookmarks"
+    ],
+    "background": {
+        "scripts": ["background.js"],
+        "persistent": false
+    },
+    "browser_action": {
+        "default_popup": "popup.html"
+    },
+    "options_page": "options.html",
+    "icons": {
+
+    },
+    "manifest_version": 2
+  }
