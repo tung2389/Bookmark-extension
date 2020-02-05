@@ -1,0 +1,1 @@
+- A chrome extension to export specific bookmarks according to folders or single files
